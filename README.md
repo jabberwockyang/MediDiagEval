@@ -3,7 +3,9 @@
 ## Overview
 
 MediDiagEval stands as a pioneering benchmark dataset focused on evaluating the diagnostic capabilities of language models within the medical domain. This benchmark is designed to bridge the gap in the availability of large-scale, reliable datasets that map patient histories to diagnoses. By leveraging advanced NLP techniques, including GPT-4 annotations and BioGPT embeddings, MediDiagEval enhances the reliability and consistency of the mapped data. The primary goal is to provide a robust framework for assessing the performance of medical vertical language models in accurately diagnosing based on unstructured medical text.
+
 Patient history data is from [PMC-Patients](https://github.com/zhao-zy15/PMC-Patients). PMC-Patients is a first-of-its-kind dataset consisting of 167k patient summaries extracted from case reports in PubMed Central (PMC).
+
 Model used to generate embedding is [BioGPT](https://github.com/microsoft/BioGPT). Their paper: [BioGPT: generative pre-trained transformer for biomedical text generation and mining ](https://academic.oup.com/bib/article/23/6/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9&login=false)
 
 ## Key Features
